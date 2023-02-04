@@ -1,0 +1,64 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#363434;
+}
+
+.galeria{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin:10px;
+    justify-content: center;
+}
+
+.produto img{
+    mix-blend-mode: multiply;
+}
+
+.produto{
+    border-radius:10px;
+    padding:20px;
+    background:#ececec;
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.pesquisar{
+    padding:5px;
+    border:solid #ececec;
+    background:#ececec;
+    width:300px;
+}
+
+.marcaProduto{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-bottom:10px;
+}
+
+.descProduto{
+    margin-top:10px;
+    width: 250px;
+    height:100px;
+    display:flex;
+    flex-wrap:wrap;
+    word-break: break-all;
+}
+
+.navegacao{
+    display:flex;
+    /* justify-content:center; */
+    background-color: white;
+    padding:10px;
+}
+
+.priceProduto{
+    bottom:0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
